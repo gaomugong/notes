@@ -5,10 +5,6 @@
 > ^@example.com/hello imports
 > 	rsc.io/quote: module rsc.io/quote: Get "https://proxy.golang.org/rsc.io/quote/@v/list": dial tcp 172.217.27.145:443: i/o timeout
 
-https://goproxy.io/zh/		
-https://goproxy.io/zh/docs/getting-started.html		
-https://goproxy.io/zh/docs/GoLand-configuration-goproxy.html		
-
 - 临时设置：
 
 ```bash
@@ -28,3 +24,10 @@ echo "export GOPROXY=https://goproxy.io,direct" >> ~/.profile && source ~/.profi
 echo "export GOPROXY=https://goproxy.io,direct" >> ~/.zshrc && source ~/.zshrc
 ```
 
+参考：
+
+https://goproxy.io/zh/
+
+https://goproxy.io/zh/docs/getting-started.html
+
+https://goproxy.io/zh/docs/GoLand-configuration-goproxy.html		
