@@ -6,12 +6,10 @@
 > 	rsc.io/quote: module rsc.io/quote: Get "https://proxy.golang.org/rsc.io/quote/@v/list": dial tcp 172.217.27.145:443: i/o timeout
 
 https://goproxy.io/zh/
-
 https://goproxy.io/zh/docs/getting-started.html
-
 https://goproxy.io/zh/docs/GoLand-configuration-goproxy.html
 
-临时设置：
+- 临时设置：
 
 ```bash
 # 配置 GOPROXY 环境变量
@@ -20,7 +18,7 @@ export GOPROXY=https://goproxy.io,direct
 export GOPRIVATE=git.mycompany.com,github.com/my/private
 ```
 
-使配置长期生效：
+- 使配置长期生效：
 
 ```shell
 # 设置你的 bash 环境变量
