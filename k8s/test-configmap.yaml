@@ -1,0 +1,14 @@
+apiVersion: v1
+data:
+  ui.properties: |
+    color.good=purple
+    color.bad=yellow
+    allow.textmode=true
+    how.nice.to.look=fairlyNice
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2021-06-12T04:35:11Z"
+  name: ui-config
+  namespace: default
+  resourceVersion: "400026"
+  uid: c00ee76b-2d25-42ad-b47b-f89abefb0ebf

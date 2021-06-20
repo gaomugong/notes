@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  username.txt: cGl0b3UK
+kind: Secret
+metadata:
+  creationTimestamp: "2021-06-12T04:26:32Z"
+  name: user
+  namespace: default
+  resourceVersion: "415333"
+  uid: 21f213c4-f891-46a1-8cdc-5e4340f67827
+type: Opaque
